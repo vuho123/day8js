@@ -74,14 +74,35 @@ let listPhones = [
 ];
 
 let newPhone = {
-  name: "Iphone11",
-  price: 22e1,
+  name: "Vu",
+  price: 12,
   brand: "Apple",
-  img: 'https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-black-400x460.png',
-  aa: "1",
-  b: 12
+  img: 'https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-black-400x460.png'
 }
+
 listPhones.push(newPhone)
+function myFunction(){
+  
+  listPhones[1].name   = document.getElementById("yourName").value
+  listPhones[1].price = document.getElementById("yourPrice").valuea
+  listPhones[1].brand = document.getElementById("yourBrand").value
+  listPhones[1].img = "https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-black-400x460.png"
+  // alert("Hello World")
+  listPhones.push(newPhone)
+// console.log(newPhone);
+  
+
+}
+console.log(listPhones);
+// listPhones.push(newPhxone)
+// listPhones.push(newPhonse[0])
+
+// console.log(listPhones);
+
+
+
+
+
 function displayListPhones() {
   let tbody=document.getElementById("list-phones");
   tbody.innerHTML="";
@@ -115,4 +136,15 @@ function viewDetail1(phonePrice){
 function viewDetail2(phoneBrand){
   alert(phoneBrand)
 }
+function myFunction(){
+  
+  listPhones[1].name   = document.getElementById("yourName").value
+  listPhones[1].price = document.getElementById("yourPrice").valuea
+  listPhones[1].brand = document.getElementById("yourBrand").value
+  listPhones[1].img = "https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-black-400x460.png"
+  // alert("Hello World")
+  listPhones.push(newPhone)
+// console.log(newPhone);
+  
 
+}
