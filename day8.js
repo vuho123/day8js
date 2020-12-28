@@ -65,7 +65,23 @@ let listPhones = [
     brand: "Oppo",
     img:'https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-black-400x460.png'
   },
+  {
+    name: "Reno3",
+    price: 28e6,
+    brand: "Oppo",
+    img:'https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-black-400x460.png'
+  }
 ];
+
+let newPhone = {
+  name: "Iphone11",
+  price: 22e1,
+  brand: "Apple",
+  img: 'https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-black-400x460.png',
+  aa: "1",
+  b: 12
+}
+listPhones.push(newPhone)
 function displayListPhones() {
   let tbody=document.getElementById("list-phones");
   tbody.innerHTML="";
@@ -99,3 +115,4 @@ function viewDetail1(phonePrice){
 function viewDetail2(phoneBrand){
   alert(phoneBrand)
 }
+
